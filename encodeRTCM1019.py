@@ -1,7 +1,6 @@
 #receivedMessage = {"af0":1925344,"af1":21763,"af2":104,"cic":57803,"cis":267,"crc":4147,"crs":52218,"cuc":10127,"cus":17936,"deltaN":45118,"eccentricity":4145034218,"fitIntervalFlag":1,"gpsCodeOnL2":0,"gpsWeekNumber":903,"i0":1797754871,"idot":8416,"iodc":582,"iode":225,"l2PDataFlag":1,"m0":1275136875,"messageNumber":1019,"omega":3930460173,"omega0":4205854284,"omegaDot":6837507,"satelliteId":26,"sqrtA":224941315,"svAccuracy":11,"svHealth":62,"tgd":234,"toc":4109,"toe":30083}
 receivedMessage = {"af0":1747664,"af1":64575,"af2":126,"cic":50174,"cis":4096,"crc":29712,"crs":65025,"cuc":30018,"cus":9180,"deltaN":7305,"eccentricity":913576050,"fitIntervalFlag":1,"gpsCodeOnL2":0,"gpsWeekNumber":783,"i0":326451766,"idot":10960,"iodc":291,"iode":195,"l2PDataFlag":1,"m0":2400190483,"messageNumber":1019,"omega":1914952727,"omega0":18647439,"omegaDot":8322111,"satelliteId":16,"sqrtA":394198079,"svAccuracy":14,"svHealth":0,"tgd":114,"toc":56343,"toe":27307}
 #####################################-----ENCODE RTCM 1002 START----#################################################
-#####################################------------BY MOINUL----------#################################################
 from pyrtcm import RTCMReader
 def hexFromBinary(binary_string):
     # Ensure the input is valid binary
