@@ -31,7 +31,6 @@ receivedMessage = {
     ]
 }
 #####################################-----ENCODE RTCM 1002 START----#################################################
-#####################################------------BY MOINUL----------#################################################
 from pyrtcm import RTCMReader
 def hexFromBinary(binary_string):
     # Ensure the input is valid binary
